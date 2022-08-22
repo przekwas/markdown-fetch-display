@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useFetch } from './useFetch';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 const App = (props: AppProps) => {
 	const { data, loading, error } = useFetch('/api/changelog');
@@ -10,7 +11,7 @@ const App = (props: AppProps) => {
 
 	return (
 		<main className="container my-5">
-			<ReactMarkdown>{data}</ReactMarkdown>
+			<ReactMarkdown rehypePlugins={[rehypeRaw]}>{data}</ReactMarkdown>
 		</main>
 	);
 };

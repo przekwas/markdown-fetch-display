@@ -2,6 +2,10 @@
 
 ## Adeunda Turnus instimulat montes inde trepidare lymphis
 
+<div style="text-align: center">Wow!</div>
+
+This is <strong>HTML strong text</strong> and not markdown.
+
 Lorem markdownum ut ferre intumuit. Haec vos at viribus senectus cunctaque equos
 quisque [in](http://patiensque.net/baccho.aspx) umor omnes posuitque impediunt
 redibam. Ignipedum Phrygii Delphice, et a tamen **resedit** leviore genibus
